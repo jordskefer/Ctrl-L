@@ -129,11 +129,12 @@ body {
 
 @media (max-width: 800px) {
     .navbar {
-        flex-direction: column;
+        /* flex-direction: column; */  /* Keep horizontal */
         align-items: flex-start;
         padding: 10px 10px;
     }
     .nav-links {
+        /* flex-direction: column; */  /* Keep horizontal */
         margin-left: 0;
         gap: 16px;
         width: 100%;
@@ -147,13 +148,13 @@ body {
         padding-top: 110px;
     }
     .navbar {
-        flex-direction: column;
+        /* flex-direction: column; */  /* Keep horizontal */
         align-items: flex-start;
         padding: 10px 5px;
         overflow-x: auto;
     }
     .nav-links {
-        flex-direction: column;
+        /* flex-direction: column; */  /* Keep horizontal */
         gap: 12px;
         margin-left: 0;
         width: 100%;
